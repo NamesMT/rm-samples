@@ -24,7 +24,7 @@ async function createBundle() {
   console.log("Copied mcp-rocket to dist")
 
   // Creates zip archive
-  const { stdout } = await execAsync(`npx -y config-rocket@latest zip --cwd="${distDir}" -i="*" -f`)
+  const { stdout } = await execAsync(`npx -y config-rocket@latest zip --cwd="${distDir}" -i="**" -f`)
   console.log(stdout)
 }
 createBundle()

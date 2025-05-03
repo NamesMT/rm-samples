@@ -4,7 +4,7 @@ type: "package"
 version: "0.0.20250503"
 sourceUrl: "https://github.com/NamesMT/rm-samples/tree/maestro"
 binaryUrl: "https://github.com/NamesMT/rm-samples/releases/download/sample/maestro-0503.zip"
-binaryHash: "2kcMTQQKteiSN4yDmeheP-B9UTIrmAkG5WPNzZilCZA"
+binaryHash: "h14q80SqJeZH12-mpZ0M9Wk7zjxZPmQK_jrso2dZgiM"
 tags: ["specialized"]
 author: "shariqriazz"
 authorUrl: https://github.com/shariqriazz
