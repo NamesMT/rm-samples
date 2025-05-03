@@ -1,0 +1,26 @@
+{
+  "mcpServers": {
+    "vertex-ai-mcp-server": {
+      "command": "{{ENTRY_COMMAND}}",
+      "args": [
+        "-y",
+        "vertex-ai-mcp-server"
+      ],
+      "env": {
+        "AI_PROVIDER": "{{AI_PROVIDER}}",
+        "{{AI_PROVIDER_KEY_NAME}}": "{{AI_PROVIDER_KEY_VALUE}}",
+        "{{MODEL_ID_NAME}}": "{{MODEL_ID_VALUE}}",
+        "GOOGLE_CLOUD_LOCATION": "{{GOOGLE_CLOUD_LOCATION}}",
+        "AI_TEMPERATURE": "{{AI_TEMPERATURE}}",
+        "AI_USE_STREAMING": "{{AI_USE_STREAMING}}",
+        "AI_MAX_OUTPUT_TOKENS": "{{AI_MAX_OUTPUT_TOKENS}}",
+        "AI_MAX_RETRIES": "3",
+        "AI_RETRY_DELAY_MS": "1000"
+      },
+      "disabled": false,
+      "alwaysAllow": [
+      ],
+      "timeout": 3600
+    }
+  }
+}

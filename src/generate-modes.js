@@ -1,12 +1,5 @@
-#!/usr/bin/env node
-
-const fs = require('fs');
-const path = require('path');
-const util = require('util');
-
-const readdir = util.promisify(fs.readdir);
-const readFile = util.promisify(fs.readFile);
-const writeFile = util.promisify(fs.writeFile);
+import { readdir, readFile } from "fs/promises";
+import { join, resolve } from "path";
 
 /**
  * Parses a mode markdown file to extract the mode name, role definition, and custom instructions
@@ -49,15 +42,11 @@ function parseModeMd(content) {
 /**
  * Main function to generate the .roomodes configuration file
  */
-async function generateModesConfig() {
-  // Check for --global flag
-  const isGlobal = process.argv.includes('--global');
-  const outputFilename = isGlobal ? 'custom_modes.json' : '.roomodes';
-  const sourceValue = isGlobal ? 'global' : 'project';
-
+export async function generateModesConfig() {
   try {
     // Read all mode markdown files
-    const files = await readdir('.');
+    const modesDir = resolve(import.meta.dirname, 'modes');
+    const files = await readdir(modesDir);
     const modeFiles = files.filter(file => file.endsWith('-mode.md'));
     
     console.log(`Found ${modeFiles.length} mode files`);
@@ -65,8 +54,8 @@ async function generateModesConfig() {
     // Parse each mode file
     const modes = [];
     for (const file of modeFiles) {
-      console.log(`Processing ${file}...`);
-      const content = await readFile(file, 'utf-8');
+      console.debug(`Processing ${file}...`);
+      const content = await readFile(join(modesDir, file), 'utf8');
       try {
         const mode = parseModeMd(content);
         
@@ -83,7 +72,6 @@ async function generateModesConfig() {
             "command",
             "mcp"
           ],
-          source: sourceValue // Use determined source value
         });
       } catch (error) {
         console.error(`Error parsing ${file}: ${error.message}`);
@@ -100,17 +88,9 @@ async function generateModesConfig() {
     
     // Write the configuration to .roomodes file
     const configJson = JSON.stringify(roomodesConfig, null, 2);
-    await writeFile(outputFilename, configJson); // Use determined filename
-    
-    console.log(`Successfully generated ${outputFilename} configuration with ${modes.length} modes`); // Update log message
+    return configJson
   } catch (error) {
     console.error('Error generating modes configuration:', error);
     process.exit(1);
   }
 }
-
-// Run the script
-generateModesConfig().catch(error => {
-  console.error('Unhandled error:', error);
-  process.exit(1);
-});

@@ -1,4 +1,4 @@
-# Specialized Roo Modes
+# Maestro + Shariqriazz Vertex MCP pack
 
 ## Overview
 
@@ -11,6 +11,8 @@ This repository contains a collection of highly specialized Roo modes designed t
 5. **Comprehensive coverage** of the entire software development lifecycle
 
 The modes are organized into categories based on their primary function in the development process. The Maestro mode serves as the central coordinator, directing tasks to the appropriate specialized modes.
+
+This repository also contains an `mcp rocket` config that will interactively set up the necessary configurations for the Vertex AI MCP server.
 
 ## Prerequisites
 
@@ -183,4 +185,6 @@ The specialized mode system is designed to be extensible. New modes can be added
 
 ## Implementation
 
-To implement these specialized modes, use the `generate-modes.js` script which will convert the markdown files into the appropriate `.roomodes` configuration format.
+To implement these specialized modes, simply run `node src/build.js`, this will generates a `rocket-archive.zip` file that contains the modes and the interactive mcp server config.
+
+You can then upload the binary somewhere and use `npx roo-rocket --url="http://path.to/rocket-archive.zip"` to start installing it anywhere.
