@@ -1,10 +1,10 @@
 name: "Maestro"
 description: "A collection of highly specialized Roo modes designed to work together as an integrated system. Each mode is an expert in a specific domain, with clear responsibilities, boundaries, and collaboration protocols. Also includes Vertex AI MCP server"
 type: "package"
-version: "0.0.20250503"
+version: "0.0.20250522"
 sourceUrl: "https://github.com/NamesMT/rm-samples/tree/maestro"
-binaryUrl: "https://github.com/NamesMT/rm-samples/releases/download/sample/maestro-0503.zip"
-binaryHash: "h14q80SqJeZH12-mpZ0M9Wk7zjxZPmQK_jrso2dZgiM"
+binaryUrl: "https://github.com/NamesMT/rm-samples/raw/dd47cf3/binaries/maestro-0522.zip"
+binaryHash: "jivc5YcUWPNLsHbUCcQHJC3nefsUuS5-Ywy_Pnmdzrk"
 tags: ["specialized"]
 author: "shariqriazz"
 authorUrl: https://github.com/shariqriazz
