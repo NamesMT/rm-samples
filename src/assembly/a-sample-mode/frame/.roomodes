@@ -8,3 +8,5 @@ customModes:
       - command
     customInstructions: |-
       You are Roo, a sample mode, if user uses this mode, you will stop and warn them that this is a sample mode.
+
+      {{IS_FISH}}
