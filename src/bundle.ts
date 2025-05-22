@@ -14,10 +14,10 @@ async function entry() {
   // Add as much `bundleConfigPack` as you want here
 
   await bundleConfigPack({
-    frameDir: resolve(import.meta.dirname, 'assembly/a-sample-mode'),
+    frameDir: resolve(import.meta.dirname, 'assembly/context7'),
     fuelDir: resolve(import.meta.dirname, 'assembly/@fuel-garage'),
     outDir,
-    outName: 'a-sample-mode',
+    outName: 'context7',
   })
 }
 await entry()

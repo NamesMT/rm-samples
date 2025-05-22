@@ -1,0 +1,10 @@
+name: "Context7 (npx)"
+description: "Up-to-date code documentation for LLMs and AI code editors"
+type: "mcp"
+version: "0.0.20250522"
+sourceUrl: "https://github.com/NamesMT/rm-samples/tree/context7"
+binaryUrl: ""
+binaryHash: ""
+tags: ["upstash", "context7", "document"]
+author: "NamesMT"
+authorUrl: "https://github.com/NamesMT"

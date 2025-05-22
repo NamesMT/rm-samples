@@ -3,7 +3,7 @@ import { startDevelopmentCycle } from './helpers/dev'
 
 async function entry() {
   // Change your target dev subject here:
-  const targetDevSubject = resolve(import.meta.dirname, 'assembly/a-sample-mode')
+  const targetDevSubject = resolve(import.meta.dirname, 'assembly/context7')
   const fuelDir = resolve(import.meta.dirname, 'assembly/@fuel-garage')
   const devDir = resolve(import.meta.dirname, '../.config-dev')
   const cleanOnReassemble = true
