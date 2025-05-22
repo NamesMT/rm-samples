@@ -1,7 +1,7 @@
 {
   "name": "rm-samples",
   "type": "module",
-  "packageManager": "pnpm@10.10.0",
+  "packageManager": "pnpm@10.11.0",
   "author": "NamesMT <dangquoctrung123@gmail.com>",
   "homepage": "https://github.com/namesmt/rm-samples#readme",
   "scripts": {
@@ -9,10 +9,10 @@
     "bundle": "tsx src/bundle.ts"
   },
   "devDependencies": {
-    "@namesmt/utils": "^0.5.10",
+    "@namesmt/utils": "^0.5.13",
     "@parcel/watcher": "^2.5.1",
-    "@types/node": "^22.15.3",
-    "config-rocket": "^0.5.4",
+    "@types/node": "^22.15.21",
+    "config-rocket": "^0.6.2",
     "consola": "^3.4.2",
     "kontroll": "^1.0.5",
     "pathe": "^2.0.3",
