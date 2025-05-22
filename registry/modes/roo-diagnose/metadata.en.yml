@@ -1,0 +1,10 @@
+name: "Roo Issue Diagnoser"
+description: "This mode helps you generate detailed diagnostic reports for Roo issues."
+type: "mode"
+version: "0.0.20250522"
+sourceUrl: "https://github.com/NamesMT/rm-samples/tree/roo-diagnose"
+binaryUrl: "https://raw.githubusercontent.com/NamesMT/rm-samples/refs/heads/roo-diagnose/roo-diagnose-0522.zip"
+binaryHash: "i73t72S9CAkBI-w40Kr_kJm8RzLoZUstoDzWJYFcM3I"
+tags: ["diagnostic"]
+author: "d.o.it"
+authorUrl: https://github.com/d-oit
