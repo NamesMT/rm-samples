@@ -4,7 +4,7 @@ type: "mcp"
 version: "0.0.20250522"
 sourceUrl: "https://github.com/NamesMT/rm-samples/tree/context7"
 binaryUrl: "https://github.com/NamesMT/rm-samples/raw/c57e3d9d614a6e90b807131fd0d3e3ca6246cb81/binaries/context7-0522.zip"
-binaryHash: "HoH-nJLxD3L4KF5Zmzza12mwa1U-sfH0f0KoCNLHO7s"
+binaryHash: "z_GIqvQqyAiVq8LoFsvmhFs2DlMmOj0ggt0vtzyxczY"
 tags: ["upstash", "context7", "document"]
 author: "NamesMT"
 authorUrl: "https://github.com/NamesMT"
