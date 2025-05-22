@@ -14,7 +14,7 @@ async function entry() {
   // Add as much `bundleConfigPack` as you want here
 
   await bundleConfigPack({
-    frameDir: resolve(import.meta.dirname, 'assembly/context7'),
+    frameDir: resolve(import.meta.dirname, 'assembly/context7/frame'),
     fuelDir: resolve(import.meta.dirname, 'assembly/@fuel-garage'),
     outDir,
     outName: 'context7',

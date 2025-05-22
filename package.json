@@ -12,7 +12,7 @@
     "@namesmt/utils": "^0.5.10",
     "@parcel/watcher": "^2.5.1",
     "@types/node": "^22.15.3",
-    "config-rocket": "^0.5.4",
+    "config-rocket": "^0.6.2",
     "consola": "^3.4.2",
     "kontroll": "^1.0.5",
     "pathe": "^2.0.3",
