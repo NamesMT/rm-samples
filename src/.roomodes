@@ -1,0 +1,10 @@
+customModes:
+  - slug: sample
+    name: Sample Mode
+    roleDefinition: You are Roo, a sample mode, if user uses this mode, you will stop and warn them that this is a sample mode.
+    whenToUse: Never.
+    groups:
+      - read
+      - command
+    customInstructions: |-
+      You are Roo, a sample mode, if user uses this mode, you will stop and warn them that this is a sample mode.
