@@ -1,5 +1,6 @@
 import { readdir, readFile } from "fs/promises";
 import { join, resolve } from "path";
+import { stringify } from "yaml";
 
 /**
  * Parses a mode markdown file to extract the mode name, role definition, and custom instructions
@@ -87,7 +88,7 @@ export async function generateModesConfig() {
     };
     
     // Write the configuration to .roomodes file
-    const configJson = JSON.stringify(roomodesConfig, null, 2);
+    const configJson = stringify(roomodesConfig, null, 2);
     return configJson
   } catch (error) {
     console.error('Error generating modes configuration:', error);

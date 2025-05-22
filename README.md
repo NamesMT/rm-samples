@@ -185,6 +185,6 @@ The specialized mode system is designed to be extensible. New modes can be added
 
 ## Implementation
 
-To implement these specialized modes, simply run `node src/build.js`, this will generates a `rocket-archive.zip` file that contains the modes and the interactive mcp server config.
+To implement these specialized modes, simply run `npm install` then `npm run build`, this will generates a `rocket-archive.zip` file that contains the modes and the interactive mcp server config.
 
 You can then upload the binary somewhere and use `npx roo-rocket --url="http://path.to/rocket-archive.zip"` to start installing it anywhere.
