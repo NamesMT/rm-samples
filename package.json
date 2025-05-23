@@ -21,9 +21,6 @@
     "tsx": "^4.19.4"
   },
   "pnpm": {
-    "overrides": {
-      "is-core-module": "npm:@nolyfill/is-core-module@^1.0.39"
-    },
     "onlyBuiltDependencies": [
       "@parcel/watcher",
       "esbuild"
