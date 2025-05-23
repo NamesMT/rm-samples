@@ -4,9 +4,6 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
-overrides:
-  is-core-module: npm:@nolyfill/is-core-module@^1.0.39
-
 importers:
 
   .:
