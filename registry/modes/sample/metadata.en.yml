@@ -3,8 +3,8 @@ description: "This is just a sample mode for the base branch"
 type: "mode"
 version: "0.0.20250522"
 sourceUrl: "https://github.com/NamesMT/rm-samples/tree/base"
-binaryUrl: ""
-binaryHash: ""
-tags: []
+binaryUrl: "https://raw.githubusercontent.com/NamesMT/rm-samples/refs/heads/base/binaries/v0.0.0-sample.zip"
+binaryHash: "C3U7l4Pc8XedKWSfSI-VeOjF_dEpnFHSfY6qCPrQAP0"
+tags: ["example", "tags"]
 author: "NamesMT"
 authorUrl: "https://github.com/NamesMT"
