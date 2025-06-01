@@ -15,11 +15,8 @@ importers:
         specifier: ^2.5.1
         version: 2.5.1
       '@types/node':
-        specifier: ^22.15.21
-        version: 22.15.21
-      config-rocket:
-        specifier: ^0.6.2
-        version: 0.6.2
+        specifier: ^22.15.29
+        version: 22.15.29
       consola:
         specifier: ^3.4.2
         version: 3.4.2
@@ -29,12 +26,15 @@ importers:
       pathe:
         specifier: ^2.0.3
         version: 2.0.3
+      roo-rocket:
+        specifier: ^0.5.1
+        version: 0.5.1
       std-env:
         specifier: ^3.9.0
         version: 3.9.0
       tinyglobby:
-        specifier: ^0.2.13
-        version: 0.2.13
+        specifier: ^0.2.14
+        version: 0.2.14
       tsx:
         specifier: ^4.19.4
         version: 4.19.4
@@ -280,8 +280,8 @@ packages:
     resolution: {integrity: sha512-dfUnCxiN9H4ap84DvD2ubjw+3vUNpstxa0TneY/Paat8a3R4uQZDLSvWjmznAY/DoahqTHl9V46HF/Zs3F29pg==}
     engines: {node: '>= 10.0.0'}
 
-  '@types/node@22.15.21':
-    resolution: {integrity: sha512-EV/37Td6c+MgKAbkcLG6vqZ2zEYHD7bvSrzqqs2RIhbA6w3x+Dqz8MZM3sP6kGTeLrdoOgKZe+Xja7tUB2DNkQ==}
+  '@types/node@22.15.29':
+    resolution: {integrity: sha512-LNdjOkUDlU1RZb8e1kOIUpN1qQUlzGkEtbVNo53vbrwDg5om6oduhm4SiUaPW5ASTXhAiP0jInWG8Qx9fVlOeQ==}
 
   braces@3.0.3:
     resolution: {integrity: sha512-yQbXgO/OSZVD2IsiLlro+7Hf6Q18EJrKSEsdoMzKePKXct3gvD8oLcOQdIzGupr5Fj+EDe8gO/lxc1BzfMpxvA==}
@@ -289,11 +289,6 @@ packages:
 
   citty@0.1.6:
     resolution: {integrity: sha512-tskPPKEs8D2KPafUypv2gxwJP8h/OaJmC82QQGGDQcHvXX43xF2VDACcJVmZ0EuSxkpO9Kc4MlrA3q0+FG58AQ==}
-
-  config-rocket@0.6.2:
-    resolution: {integrity: sha512-zk0HejeOSf2vuYQ/wK08G7chWcbMRr+xWw/gHpYzuM2rLQNSOoQH+xO/ivX3LUPAWJz6Hz1FgZFhEaflxxWTDA==}
-    engines: {node: '>=20.13.1'}
-    hasBin: true
 
   consola@3.4.2:
     resolution: {integrity: sha512-5IKcdX0nnYavi6G7TtOhwkYzyjfJlatbjMjuLSfE2kYT5pMDOilZ4OvMhi637CcDICTmz3wARPoyhqyX1Y+XvA==}
@@ -324,9 +319,6 @@ packages:
       picomatch:
         optional: true
 
-  fflate@0.8.2:
-    resolution: {integrity: sha512-cPJU47OaAoCbg0pBvzsgpTPhmhqI5eJjh/JIu8tPj5q+T7iLvW/JAYUqmE7KOB4R1ZyEhzBaIQpQpardBF5z8A==}
-
   fill-range@7.1.1:
     resolution: {integrity: sha512-YsGpe3WHLK8ZYi4tWDg2Jy3ebRz2rXowDxnld4bkQB00cc/1Zw9AWnC0i9ztDJitivtQvaI9KaLyKrc+hBW0yg==}
     engines: {node: '>=8'}
@@ -354,10 +346,6 @@ packages:
     resolution: {integrity: sha512-41Cifkg6e8TylSpdtTpeLVMqvSBEVzTttHvERD741+pnZ8ANv0004MRL43QKPDlK9cGvNp6NZWZUBlbGXYxxng==}
     engines: {node: '>=0.12.0'}
 
-  jiti@2.4.2:
-    resolution: {integrity: sha512-rg9zJN+G4n2nfJl5MW3BMygZX56zKPNVEYYqq7adpmMh4Jn2QNEwhvQlFy6jPVdcod7txZtKHWnyZiA3a0zP7A==}
-    hasBin: true
-
   kontroll@1.0.5:
     resolution: {integrity: sha512-Fc9SZ3JGGkSrOo8rIGoZMjhfaaXY0DvJaewSdKve2KuT98icylO2J130Zsb/7Hzm9BnQ+88avT0ka51A4qBGuQ==}
     engines: {node: '>=18.0.0'}
@@ -383,11 +371,15 @@ packages:
   resolve-pkg-maps@1.0.0:
     resolution: {integrity: sha512-seS2Tj26TBVOC2NIc2rOe2y2ZO7efxITtLZcGSOnHHNOQ7CkiUBfw0Iw2ck6xkIhPwLhKNLS8BO+hEpngQlqzw==}
 
+  roo-rocket@0.5.1:
+    resolution: {integrity: sha512-EkhqdMitLFOTanQK9i0o66G01zYu0tjDrX0bSmUv5bg6Vztmb+MSJ3eXilKDixMxVYsyCV3iBXY5VuTNyavdDA==}
+    hasBin: true
+
   std-env@3.9.0:
     resolution: {integrity: sha512-UGvjygr6F6tpH7o2qyqR6QYpwraIjKSdtzyBdyytFOHmPZY917kwdwLG0RbOjWOnKmnm3PeHjaoLLMie7kPLQw==}
 
-  tinyglobby@0.2.13:
-    resolution: {integrity: sha512-mEwzpUgrLySlveBwEVDMKk5B57bhLPYovRfPAXD5gA/98Opn0rCDj3GtLwFvCvH5RK9uPCExUROW5NjDwvqkxw==}
+  tinyglobby@0.2.14:
+    resolution: {integrity: sha512-tX5e7OM1HnYr2+a2C/4V0htOcSQcoSTH9KgJnVvNm5zm/cyEWKJ7j7YutsH9CxMdtOkkLFy2AHrMci9IM8IPZQ==}
     engines: {node: '>=12.0.0'}
 
   to-regex-range@5.0.1:
@@ -401,11 +393,6 @@ packages:
 
   undici-types@6.21.0:
     resolution: {integrity: sha512-iwDZqg0QAGrg9Rav5H4n0M64c3mkR59cJ6wQp+7C4nI0gsmExaedaYLNO44eT4AtBBwjbTiGPMlt2Md0T9H9JQ==}
-
-  yaml@2.8.0:
-    resolution: {integrity: sha512-4lLa/EcQCB0cJkyts+FpIRx5G/llPxfP6VQU5KByHEhLxY3IJCH0f0Hy1MHI8sClTvsIb8qwRJ6R/ZdlDJ/leQ==}
-    engines: {node: '>= 14.6'}
-    hasBin: true
 
 snapshots:
 
@@ -551,7 +538,7 @@ snapshots:
       '@parcel/watcher-win32-ia32': 2.5.1
       '@parcel/watcher-win32-x64': 2.5.1
 
-  '@types/node@22.15.21':
+  '@types/node@22.15.29':
     dependencies:
       undici-types: 6.21.0
 
@@ -562,19 +549,6 @@ snapshots:
   citty@0.1.6:
     dependencies:
       consola: 3.4.2
-
-  config-rocket@0.6.2:
-    dependencies:
-      citty: 0.1.6
-      consola: 3.4.2
-      defu: 6.1.4
-      fflate: 0.8.2
-      hookable: 5.5.3
-      jiti: 2.4.2
-      pathe: 2.0.3
-      std-env: 3.9.0
-      tinyglobby: 0.2.13
-      yaml: 2.8.0
 
   consola@3.4.2: {}
 
@@ -616,8 +590,6 @@ snapshots:
     optionalDependencies:
       picomatch: 4.0.2
 
-  fflate@0.8.2: {}
-
   fill-range@7.1.1:
     dependencies:
       to-regex-range: 5.0.1
@@ -639,8 +611,6 @@ snapshots:
 
   is-number@7.0.0: {}
 
-  jiti@2.4.2: {}
-
   kontroll@1.0.5: {}
 
   micromatch@4.0.8:
@@ -658,9 +628,18 @@ snapshots:
 
   resolve-pkg-maps@1.0.0: {}
 
+  roo-rocket@0.5.1:
+    dependencies:
+      citty: 0.1.6
+      consola: 3.4.2
+      defu: 6.1.4
+      hookable: 5.5.3
+      pathe: 2.0.3
+      std-env: 3.9.0
+
   std-env@3.9.0: {}
 
-  tinyglobby@0.2.13:
+  tinyglobby@0.2.14:
     dependencies:
       fdir: 6.4.4(picomatch@4.0.2)
       picomatch: 4.0.2
@@ -677,5 +656,3 @@ snapshots:
       fsevents: 2.3.3
 
   undici-types@6.21.0: {}
-
-  yaml@2.8.0: {}

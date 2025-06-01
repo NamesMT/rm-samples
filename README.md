@@ -1,6 +1,6 @@
 # main
 
-This branch contains the basic development workflow of a [**rocket-powered**](https://github.com/NamesMT/roo-rocket) item for the [**Roo Marketplace registry**](https://github.com/RooCodeInc/Roo-Code-Marketplace).
+This branch contains the basic development workflow of a [**rocket-powered**](https://github.com/NamesMT/roo-rocket) items repo for the [**Roo Marketplace registry**](https://github.com/RooCodeInc/Roo-Code-Marketplace).
 
 ## Usage
 
@@ -24,8 +24,8 @@ Configure the items to be bundled in [`src/bundle.ts`](./src/bundle.ts) file.
 
 ### Publishing to marketplace
 
-After you have your items binaries, upload them somewhere, and create valid metadata for them in the `registry/` directory.
+After you have your items binaries, upload them somewhere, and create valid metadatas for it in the `registry/` directory (refer to the [**Roo Marketplace registry**](https://github.com/RooCodeInc/Roo-Code-Marketplace) for structure and tutorial).
 
 Then, you can fork the [**Roo-Code-Marketplace**](https://github.com/RooCodeInc/Roo-Code-Marketplace) registry repo, and just copy whatever is under your `registry/` dir to the root of that repo, then push to a branch and create a PR.
 
-You can also add this repo as a custom source, so you can test and verify that your metadatas is valid and working before you push to the main repo.
+You can also add this repo as a custom source, so you can test and verify that your metadatas is valid and working before you create your PR.

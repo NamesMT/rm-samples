@@ -1,5 +1,5 @@
 import { subscribe } from '@parcel/watcher'
-import { rocketAssemble } from 'config-rocket'
+import { rocketAssemble } from 'roo-rocket'
 import { debounce, throttle } from 'kontroll'
 import { join } from 'pathe'
 import { logger } from './logger'

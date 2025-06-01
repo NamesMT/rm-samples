@@ -11,13 +11,13 @@
   "devDependencies": {
     "@namesmt/utils": "^0.5.13",
     "@parcel/watcher": "^2.5.1",
-    "@types/node": "^22.15.21",
-    "config-rocket": "^0.6.2",
+    "@types/node": "^22.15.29",
     "consola": "^3.4.2",
     "kontroll": "^1.0.5",
     "pathe": "^2.0.3",
+    "roo-rocket": "^0.5.1",
     "std-env": "^3.9.0",
-    "tinyglobby": "^0.2.13",
+    "tinyglobby": "^0.2.14",
     "tsx": "^4.19.4"
   },
   "pnpm": {

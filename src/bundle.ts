@@ -1,4 +1,4 @@
-import { bundleConfigPack } from 'config-rocket'
+import { bundleConfigPack } from 'roo-rocket'
 import { resolve } from 'pathe'
 import { prepareDirectory } from './helpers/fs'
 
